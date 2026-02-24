@@ -11,9 +11,9 @@
 
   <default sync-j="4"/>
 
-  <!-- bitbake: Branch 2.0 -->
-  <!-- https://github.com/openembedded/bitbake/commit/41b6684489d0261753344956042be2cc4adb0159 -->
-  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="41b6684489d0261753344956042be2cc4adb0159" upstream="2.0"/>
+  <!-- bitbake: Branch 2.8 -->
+  <!-- https://github.com/openembedded/bitbake/commit/10118785e4a670bce4980e1044c0888a8b6e84af -->
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="10118785e4a670bce4980e1044c0888a8b6e84af" upstream="2.8"/>
 
   <!-- meta-openembedded: Branch scarthgap -->
   <!-- https://github.com/openembedded/meta-openembedded/commit/7a5075cef77b5f7af454e9868e1d0019f2fd1394 -->
