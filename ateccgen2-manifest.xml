@@ -55,6 +55,10 @@
   <!-- https://git.yoctoproject.org/meta-arm/commit/?id=a81c19915b5b9e71ed394032e9a50fd06919e1cd -->
   <project name="meta-arm" path="layers/meta-arm" remote="yocto" revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd" upstream="scarthgap"/>
 
+  <!-- meta-security: Branch scarthgap -->
+  <!-- https://git.yoctoproject.org/meta-security/commit/?id=97e482b71688b62ac1109d16e89368122f039cbf -->
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="97e482b71688b62ac1109d16e89368122f039cbf" upstream="scarthgap"/>
+
   <!-- meta-ti: Branch scarthgap -->
   <!-- https://git.yoctoproject.org/meta-ti/commit/?id=5258ee2f903d8f1e0cbcb9d01488d08b57314009 -->
   <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="5258ee2f903d8f1e0cbcb9d01488d08b57314009" upstream="scarthgap"/>
