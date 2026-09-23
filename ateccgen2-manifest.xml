@@ -44,8 +44,8 @@
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="63f3b4af0ef25cb0a5125de1b519be088b049347" upstream="scarthgap-7.x.y"/>
 
   <!-- meta-toradex-nxp: Branch scarthgap-7.x.y -->
-  <!-- https://git.toradex.com/cgit/meta-toradex-nxp.git/commit/?id=63f3b4af0ef25cb0a5125de1b519be088b049347 -->
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="63f3b4af0ef25cb0a5125de1b519be088b049347" upstream="scarthgap-7.x.y"/>
+  <!-- https://git.toradex.com/cgit/meta-toradex-nxp.git/commit/?id=bc45f2374f5f5db4e0875477765e3068741b1f84 -->
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="bc45f2374f5f5db4e0875477765e3068741b1f84" upstream="scarthgap-7.x.y"/>
 
   <!-- meta-toradex-ti: Branch scarthgap-7.x.y -->
   <!-- https://git.toradex.com/cgit/meta-toradex-ti.git/commit/?id=6e74862c837921ce8f05afc9714b0f3ac29879fc -->
