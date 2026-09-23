@@ -12,79 +12,80 @@
   <default sync-j="4"/>
 
   <!-- bitbake: Branch 2.8 -->
-  <!-- https://github.com/openembedded/bitbake/commit/10118785e4a670bce4980e1044c0888a8b6e84af -->
-  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="10118785e4a670bce4980e1044c0888a8b6e84af" upstream="2.8"/>
+  <!-- https://github.com/openembedded/bitbake/commit/cd50c3481e32afff995a143c3459cfa5ae25abd5 -->
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="cd50c3481e32afff995a143c3459cfa5ae25abd5" upstream="2.8"/>
 
   <!-- meta-openembedded: Branch scarthgap -->
-  <!-- https://github.com/openembedded/meta-openembedded/commit/7a5075cef77b5f7af454e9868e1d0019f2fd1394 -->
-  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="7a5075cef77b5f7af454e9868e1d0019f2fd1394" upstream="scarthgap"/>
+  <!-- https://github.com/openembedded/meta-openembedded/commit/b5874ea07d69919d9b40d59f2c2f0bbd24bc3259 -->
+  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="b5874ea07d69919d9b40d59f2c2f0bbd24bc3259" upstream="scarthgap"/>
 
   <!-- meta-yocto: Branch scarthgap -->
-  <!-- https://git.yoctoproject.org/meta-yocto/commit/?id=9bb6e6e8b016a0c9dfe290369a6ed91ef4020535 -->
-  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="9bb6e6e8b016a0c9dfe290369a6ed91ef4020535" upstream="scarthgap"/>
+  <!-- https://git.yoctoproject.org/meta-yocto/commit/?id=961c2399d06fbdb04ee27d06079e186d2c4a14ad -->
+  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="961c2399d06fbdb04ee27d06079e186d2c4a14ad" upstream="scarthgap"/>
 
   <!-- openembedded-core: Branch scarthgap -->
-  <!-- https://github.com/openembedded/openembedded-core/commit/d50e4680ed6f930582d907b37c9ed545a89f5c27 -->
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="d50e4680ed6f930582d907b37c9ed545a89f5c27" upstream="scarthgap"/>
+  <!-- https://github.com/openembedded/openembedded-core/commit/04f18f976b3809e195433b6b31a6121014bdc37c -->
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="04f18f976b3809e195433b6b31a6121014bdc37c" upstream="scarthgap"/>
 
   <!-- meta-freescale-3rdparty: Branch scarthgap -->
-  <!-- https://github.com/Freescale/meta-freescale-3rdparty/commit/70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d -->
-  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d" upstream="scarthgap"/>
+  <!-- https://github.com/Freescale/meta-freescale-3rdparty/commit/ce10c065119c2d4e359235c77aae7e0d843533ef -->
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="ce10c065119c2d4e359235c77aae7e0d843533ef" upstream="scarthgap"/>
 
   <!-- meta-freescale-distro: Branch scarthgap -->
   <!-- https://github.com/Freescale/meta-freescale-distro/commit/b9d6a5d9931922558046d230c1f5f4ef6ee72345 -->
   <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
 
   <!-- meta-freescale: Branch scarthgap -->
-  <!-- https://github.com/Freescale/meta-freescale/commit/902dde8c5bd29bb507ac8d37772565a6c9ab77cd -->
-  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="902dde8c5bd29bb507ac8d37772565a6c9ab77cd" upstream="scarthgap"/>
+  <!-- https://github.com/Freescale/meta-freescale/commit/ce51eb5486e87a34f04f0367351e3217855b17ba -->
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="ce51eb5486e87a34f04f0367351e3217855b17ba" upstream="scarthgap"/>
 
   <!-- meta-toradex-bsp-common: Branch scarthgap-7.x.y -->
-  <!-- https://git.toradex.com/cgit/meta-toradex-bsp-common.git/commit/?id=82641b8d70262467fadfd23a211c8937618f5443 -->
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="82641b8d70262467fadfd23a211c8937618f5443" upstream="scarthgap-7.x.y"/>
+  <!-- https://git.toradex.com/meta-toradex-bsp-common.git/commit/?id=63f3b4af0ef25cb0a5125de1b519be088b049347 -->
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="63f3b4af0ef25cb0a5125de1b519be088b049347" upstream="scarthgap-7.x.y"/>
 
   <!-- meta-toradex-nxp: Branch scarthgap-7.x.y -->
-  <!-- https://git.toradex.com/cgit/meta-toradex-nxp.git/commit/?id=745f25989ae23650f8b65149c3bb0a85403274e3 -->
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="745f25989ae23650f8b65149c3bb0a85403274e3" upstream="scarthgap-7.x.y"/>
+  <!-- https://git.toradex.com/cgit/meta-toradex-nxp.git/commit/?id=63f3b4af0ef25cb0a5125de1b519be088b049347 -->
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="63f3b4af0ef25cb0a5125de1b519be088b049347" upstream="scarthgap-7.x.y"/>
 
   <!-- meta-toradex-ti: Branch scarthgap-7.x.y -->
-  <!-- https://git.toradex.com/cgit/meta-toradex-ti.git/commit/?id=16a3cd367784e51879f49b8bb5141f6317dd388d -->
-  <project name="meta-toradex-ti.git" path="layers/meta-toradex-ti" remote="tdx" revision="16a3cd367784e51879f49b8bb5141f6317dd388d" upstream="scarthgap-7.x.y"/>
+  <!-- https://git.toradex.com/cgit/meta-toradex-ti.git/commit/?id=6e74862c837921ce8f05afc9714b0f3ac29879fc -->
+  <project name="meta-toradex-ti.git" path="layers/meta-toradex-ti" remote="tdx" revision="6e74862c837921ce8f05afc9714b0f3ac29879fc" upstream="scarthgap-7.x.y"/>
 
   <!-- meta-arm: Branch scarthgap -->
-  <!-- https://git.yoctoproject.org/meta-arm/commit/?id=a81c19915b5b9e71ed394032e9a50fd06919e1cd -->
-  <project name="meta-arm" path="layers/meta-arm" remote="yocto" revision="a81c19915b5b9e71ed394032e9a50fd06919e1cd" upstream="scarthgap"/>
+  <!-- https://git.yoctoproject.org/meta-arm/commit/?id=0a4b911d9fd63ab29c4532a907fae3282dbdcfe4 -->
+  <project name="meta-arm" path="layers/meta-arm" remote="yocto" revision="0a4b911d9fd63ab29c4532a907fae3282dbdcfe4" upstream="scarthgap"/>
 
   <!-- meta-security: Branch scarthgap -->
-  <!-- https://git.yoctoproject.org/meta-security/commit/?id=97e482b71688b62ac1109d16e89368122f039cbf -->
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="97e482b71688b62ac1109d16e89368122f039cbf" upstream="scarthgap"/>
+  <!-- https://git.yoctoproject.org/meta-security/commit/?id=b13f1705d723650de61277670c8a76aadea4cfdd -->
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="b13f1705d723650de61277670c8a76aadea4cfdd" upstream="scarthgap"/>
 
   <!-- meta-ti: Branch scarthgap -->
-  <!-- https://git.yoctoproject.org/meta-ti/commit/?id=5258ee2f903d8f1e0cbcb9d01488d08b57314009 -->
-  <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="5258ee2f903d8f1e0cbcb9d01488d08b57314009" upstream="scarthgap"/>
+  <!-- https://git.yoctoproject.org/meta-ti/commit/?id=ef43a90c91d5a9754b2f28f09debd553fbc6a2d5 -->
+  <project name="meta-ti" path="layers/meta-ti" remote="yocto" revision="ef43a90c91d5a9754b2f28f09debd553fbc6a2d5" upstream="scarthgap"/>
 
   <!-- meta-qt5: Branch scarthgap -->
-  <!-- https://github.com/meta-qt5/meta-qt5/commit/9ae2fe2696b10f5dc4253c4f467dc388139860bd -->
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="9ae2fe2696b10f5dc4253c4f467dc388139860bd" upstream="scarthgap"/>
+  <!-- https://github.com/meta-qt5/meta-qt5/commit/916d37e38077850ff5a0ac4fce6f2a55ba5b2a86 -->
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="916d37e38077850ff5a0ac4fce6f2a55ba5b2a86" upstream="scarthgap"/>
 
   <!-- meta-toradex-demos: Branch scarthgap-7.x.y -->
-  <!-- https://git.toradex.com/cgit/meta-toradex-demos.git/commit/?id=4ba1cebc6909ee7a83d569e8cc748f69e6a0a24f -->
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="4ba1cebc6909ee7a83d569e8cc748f69e6a0a24f" upstream="scarthgap-7.x.y"/>
+  <!-- https://git.toradex.com/cgit/meta-toradex-demos.git/commit/?id=28b67de839fd5cb32da42b65a8a700781fb72144 -->
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="28b67de839fd5cb32da42b65a8a700781fb72144" upstream="scarthgap-7.x.y"/>
 
   <!-- meta-toradex-distro: Branch scarthgap-7.x.y -->
-  <!-- https://git.toradex.com/cgit/meta-toradex-distro.git/commit/?id=c55b5b491427ac1f129dcd905bb9956feecd31a4 -->
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="c55b5b491427ac1f129dcd905bb9956feecd31a4" upstream="scarthgap-7.x.y"/>
+  <!-- https://git.toradex.com/cgit/meta-toradex-distro.git/commit/?id=772c237011e1eea2dbc9150ba614be7fd6a4cbf9 -->
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="772c237011e1eea2dbc9150ba614be7fd6a4cbf9" upstream="scarthgap-7.x.y"/>
 
   <!-- meta-mender: Branch scarthgap -->
-  <!-- https://github.com/mendersoftware/meta-mender/commit/c3064a2767be4779589bd276079d7bb535dcb481 -->
-  <project name="meta-mender" path="layers/meta-mender" remote="mender" revision="c3064a2767be4779589bd276079d7bb535dcb481" upstream="scarthgap"/>
+  <!-- https://github.com/mendersoftware/meta-mender/commit/8ab74a35a94cd39b7eed8603ab76c15a6d637a4a -->
+  <project name="meta-mender" path="layers/meta-mender" remote="mender" revision="8ab74a35a94cd39b7eed8603ab76c15a6d637a4a" upstream="scarthgap"/>
 
   <!-- meta-mender-community: Branch scarthgap -->
-  <!-- https://github.com/NI-CHO/meta-mender-community/commit/eee6bea0126d1f3b2cb3bff8ca5474f712a7254b -->
-  <project name="meta-mender-community" path="layers/meta-mender-community" remote="ni-cho" revision="eee6bea0126d1f3b2cb3bff8ca5474f712a7254b" upstream="scarthgap"/>
+  <!-- https://github.com/NI-CHO/meta-mender-community/commit/c39d1b14e5d9fe4d9772889bbfd477a9344da310 -->
+  <project name="meta-mender-community" path="layers/meta-mender-community" remote="ni-cho" revision="c39d1b14e5d9fe4d9772889bbfd477a9344da310" upstream="scarthgap"/>
 
   <!-- meta-ateccgen2: Branch main -->
-  <project name="meta-ateccgen2.git" path="layers/meta-ateccgen2" remote="ni" revision="main" upstream="main">
+  <!-- https://github.com/NI-CHO/meta-ateccgen2/commit/44a60fc133e76f23ac030e036cc8a603d26a3beb -->
+  <project name="meta-ateccgen2" path="layers/meta-ateccgen2" remote="ni-cho" revision="44a60fc133e76f23ac030e036cc8a603d26a3beb" upstream="main"/>
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
