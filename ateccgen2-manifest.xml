@@ -85,7 +85,7 @@
 
   <!-- meta-ateccgen2: Branch main -->
   <!-- https://github.com/NI-CHO/meta-ateccgen2/commit/44a60fc133e76f23ac030e036cc8a603d26a3beb -->
-  <project name="meta-ateccgen2" path="layers/meta-ateccgen2" remote="ni-cho" revision="44a60fc133e76f23ac030e036cc8a603d26a3beb" upstream="main"/>
+  <project name="meta-ateccgen2" path="layers/meta-ateccgen2" remote="ni-cho" revision="44a60fc133e76f23ac030e036cc8a603d26a3beb" upstream="main">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
