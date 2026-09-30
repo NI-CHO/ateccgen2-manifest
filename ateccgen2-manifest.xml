@@ -80,12 +80,12 @@
   <project name="meta-mender" path="layers/meta-mender" remote="mender" revision="8ab74a35a94cd39b7eed8603ab76c15a6d637a4a" upstream="scarthgap"/>
 
   <!-- meta-mender-community: Branch scarthgap -->
-  <!-- https://github.com/NI-CHO/meta-mender-community/commit/c39d1b14e5d9fe4d9772889bbfd477a9344da310 -->
-  <project name="meta-mender-community" path="layers/meta-mender-community" remote="ni-cho" revision="c39d1b14e5d9fe4d9772889bbfd477a9344da310" upstream="scarthgap"/>
+  <!-- https://github.com/NI-CHO/meta-mender-community/commit/fdbe27cf4957aba7bb168db153011d6a9ebc5d3c -->
+  <project name="meta-mender-community" path="layers/meta-mender-community" remote="ni-cho" revision="fdbe27cf4957aba7bb168db153011d6a9ebc5d3c" upstream="scarthgap"/>
 
   <!-- meta-ateccgen2: Branch main -->
-  <!-- https://github.com/NI-CHO/meta-ateccgen2/commit/44a60fc133e76f23ac030e036cc8a603d26a3beb -->
-  <project name="meta-ateccgen2" path="layers/meta-ateccgen2" remote="ni-cho" revision="44a60fc133e76f23ac030e036cc8a603d26a3beb" upstream="main">
+  <!-- https://github.com/NI-CHO/meta-ateccgen2/commit/8bdb07b444f04fd6101963cf793e2c39167460e4 -->
+  <project name="meta-ateccgen2" path="layers/meta-ateccgen2" remote="ni-cho" revision="8bdb07b444f04fd6101963cf793e2c39167460e4" upstream="main">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
